@@ -1,0 +1,626 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Vince Patrick Parcon Maling - Future Game Developer and BS Information Technology Student.">
+
+    <title>Vince Patrick | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ANIMATED PARTICLE BACKGROUND -->
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Vince<span>Portfolio.</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+                <button id="themeToggle" class="icon-btn"
+                aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+
+                <button id="menuToggle" class="icon-btn menu-toggle"
+                aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HOME SECTION -->
+        <section id="home" class="hero">
+
+            <div class="hero-content reveal">
+
+                <span class="availability">
+                    <span class="status-dot"></span>
+                    IT STUDENT | FUTURE DEVELOPER
+                </span>
+
+                <p class="intro">HELLO, I'M</p>
+
+                <h1>
+                    Vince Patrick<br>
+                    <span>Parcon Maling</span>
+                </h1>
+
+                <h2>
+                    I'm a <span id="typingText">Future Game Developer</span>
+                </h2>
+
+                <p class="description">
+                    A Bachelor of Science in Information Technology
+                    student from the Philippines who is passionate
+                    about game development, programming, artificial
+                    intelligence, and creating innovative digital
+                    experiences.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/vincep899-ai"
+                    target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/vince-patrick-maling-a543ab447/"
+                    target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+
+                    <a href="https://www.facebook.com/akashi.tzy.9"
+                    target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook"></i>
+                        Facebook
+                    </a>
+
+                </div>
+
+                <p class="location">
+                    <i class="fas fa-location-dot"></i>
+                    Philippines
+                </p>
+
+            </div>
+
+            <!-- PROFILE PHOTO -->
+            <div class="hero-image reveal">
+
+                <div class="image-glow"></div>
+
+                <div class="profile-frame">
+                    <img src="profile.jpg"
+                    alt="Vince Patrick Parcon Maling"
+                    class="profile-photo">
+                </div>
+
+                <div class="floating-card">
+                    <i class="fas fa-gamepad"></i>
+                    <div>
+                        <strong>Future Game Developer</strong>
+                        <small>Building my future through technology</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section reveal">
+
+            <div class="section-heading">
+                <span class="section-label">GET TO KNOW ME</span>
+                <h2>About <span>Me</span></h2>
+                <p>Discover more about my background and goals.</p>
+            </div>
+
+            <div class="about-content">
+
+                <div class="about-text">
+
+                    <h3>Who Am I?</h3>
+
+                    <p>
+                        I am Vince Patrick Parcon Maling, a Bachelor
+                        of Science in Information Technology student
+                        from the Philippines.
+                    </p>
+
+                    <p>
+                        I enjoy exploring technology, developing
+                        software, experimenting with programming,
+                        and learning how interactive applications
+                        are created.
+                    </p>
+
+                    <p>
+                        My main goal is to become a professional
+                        game developer and create meaningful,
+                        creative, and enjoyable digital experiences.
+                    </p>
+
+                </div>
+
+                <div class="about-details">
+
+                    <div class="detail-card">
+                        <i class="fas fa-user-graduate"></i>
+                        <h4>Education</h4>
+                        <p>BS Information Technology</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <i class="fas fa-gamepad"></i>
+                        <h4>Career Goal</h4>
+                        <p>Game Developer</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Location</h4>
+                        <p>Philippines</p>
+                    </div>
+
+                    <div class="detail-card">
+                        <i class="fas fa-code"></i>
+                        <h4>Interests</h4>
+                        <p>Programming & Technology</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="section reveal">
+
+            <div class="section-heading">
+                <span class="section-label">WHAT I WORK WITH</span>
+                <h2>My <span>Skills</span></h2>
+                <p>Technologies and areas I am learning and exploring.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                    <p>Programming and application development</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Web structure and content</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Web design and responsive layouts</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web development</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Unity</h3>
+                    <p>Game development and simulation</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-cube"></i>
+                    <h3>Blender</h3>
+                    <p>3D modeling and asset creation</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-eye"></i>
+                    <h3>Computer Vision</h3>
+                    <p>Hand and face tracking experiments</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Database</h3>
+                    <p>Database concepts and SQL</p>
+                </div>
+
+            </div>
+
+            <p class="skills-note">
+                These represent technologies I have explored
+                or am currently learning. My skills continue
+                to improve through practice and projects.
+            </p>
+
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="section reveal">
+
+            <div class="section-heading">
+                <span class="section-label">MY DEVELOPMENT JOURNEY</span>
+                <h2>Featured <span>Projects</span></h2>
+                <p>Some of my programming and development projects.</p>
+            </div>
+
+            <div class="project-grid">
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+
+                    <span class="project-status">In Development</span>
+
+                    <h3>SysCore</h3>
+
+                    <p>
+                        A 3D system administration simulation game
+                        designed to introduce system administration
+                        concepts through interactive gameplay.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Unity</span>
+                        <span>C#</span>
+                        <span>Blender</span>
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+
+                    <span class="project-status">Personal Project</span>
+
+                    <h3>Hand Ninja AI</h3>
+
+                    <p>
+                        A camera-based hand tracking arcade game
+                        that uses hand gestures to interact with
+                        game objects.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>MediaPipe</span>
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+
+                    <span class="project-status">Personal Project</span>
+
+                    <h3>Face Tracking AI Scanner</h3>
+
+                    <p>
+                        A face tracking experiment that detects
+                        faces and displays different scanning
+                        and recognition-style visual states.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>MediaPipe</span>
+                    </div>
+
+                </article>
+
+                <article class="project-card">
+
+                    <div class="project-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+
+                    <span class="project-status">Development Project</span>
+
+                    <h3>QR Code Attendance System</h3>
+
+                    <p>
+                        A QR code-based attendance project
+                        designed to support scanning and
+                        recording attendance information.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>QR Code</span>
+                        <span>OpenCV</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- ACHIEVEMENTS SECTION -->
+        <section id="achievements" class="section reveal">
+
+            <div class="section-heading">
+                <span class="section-label">MILESTONES AND RECOGNITION</span>
+                <h2>My <span>Achievements</span></h2>
+                <p>
+                    A collection of my awards, certificates,
+                    recognitions, and memorable experiences.
+                </p>
+            </div>
+
+            <div class="achievement-grid">
+
+                <article class="achievement-card"
+                data-image="achievement-mlbb.jpg"
+                data-title="Mobile Legends Tournament">
+
+                    <img src="achievement-mlbb.jpg"
+                    alt="Mobile Legends Tournament Award">
+
+                    <div class="achievement-info">
+                        <span class="achievement-tag">2nd Runner-Up</span>
+                        <h3>Mobile Legends Tournament</h3>
+                        <p>SK Balar­ing Mobile Legends Tournament 2023.</p>
+                        <span class="view-photo">
+                            View Picture <i class="fas fa-expand"></i>
+                        </span>
+                    </div>
+
+                </article>
+
+                <article class="achievement-card"
+                data-image="certificate.png.jpg"
+                data-title="Certificate of Participation">
+
+                    <img src="certificate.png.jpg"
+                    alt="Certificate of Participation">
+
+                    <div class="achievement-info">
+                        <span class="achievement-tag">Certificate</span>
+                        <h3>Fire Safety Symposium</h3>
+                        <p>Certificate of Participation, March 15, 2025.</p>
+                        <span class="view-photo">
+                            View Picture <i class="fas fa-expand"></i>
+                        </span>
+                    </div>
+
+                </article>
+
+                <article class="achievement-card"
+                data-image="Milo.jpg"
+                data-title="Milo">
+
+                    <img src="Milo.jpg" alt="Milo achievement picture">
+
+                    <div class="achievement-info">
+                        <span class="achievement-tag">Achievement</span>
+                        <h3>Milo</h3>
+                        <p>A memorable achievement and experience.</p>
+                        <span class="view-photo">
+                            View Picture <i class="fas fa-expand"></i>
+                        </span>
+                    </div>
+
+                </article>
+
+                <article class="achievement-card"
+                data-image="recognition.jpg"
+                data-title="Recognition">
+
+                    <img src="recognition.jpg" alt="Recognition picture">
+
+                    <div class="achievement-info">
+                        <span class="achievement-tag">Recognition</span>
+                        <h3>Recognition</h3>
+                        <p>A special moment of recognition.</p>
+                        <span class="view-photo">
+                            View Picture <i class="fas fa-expand"></i>
+                        </span>
+                    </div>
+
+                </article>
+
+                <article class="achievement-card"
+                data-image="sharing.jpg"
+                data-title="Sharing">
+
+                    <img src="sharing.jpg" alt="Sharing picture">
+
+                    <div class="achievement-info">
+                        <span class="achievement-tag">Experience</span>
+                        <h3>Sharing</h3>
+                        <p>A memorable learning and sharing experience.</p>
+                        <span class="view-photo">
+                            View Picture <i class="fas fa-expand"></i>
+                        </span>
+                    </div>
+
+                </article>
+
+                <article class="achievement-card"
+                data-image="WithHono.jpg"
+                data-title="With Honors">
+
+                    <img src="WithHono.jpg" alt="With Honors picture">
+
+                    <div class="achievement-info">
+                        <span class="achievement-tag">Academic</span>
+                        <h3>With Honors</h3>
+                        <p>An academic milestone and achievement.</p>
+                        <span class="view-photo">
+                            View Picture <i class="fas fa-expand"></i>
+                        </span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- IMAGE PREVIEW MODAL -->
+        <div class="image-modal" id="imageModal"
+        aria-hidden="true">
+
+            <button class="modal-close" id="modalClose"
+            aria-label="Close image preview">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <img id="modalImage" src="" alt="Achievement preview">
+
+            <p id="modalCaption"></p>
+
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact-section reveal">
+
+            <div class="section-heading">
+                <span class="section-label">LET'S CONNECT</span>
+                <h2>Contact <span>Me</span></h2>
+                <p>
+                    Feel free to connect with me for opportunities,
+                    collaboration, or professional inquiries.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+
+                <a href="mailto:vincep899@gmail.com"
+                class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>vincep899@gmail.com</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/vincep899-ai"
+                target="_blank" rel="noopener noreferrer"
+                class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>Visit my GitHub profile</p>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/in/vince-patrick-maling-a543ab447/"
+                target="_blank" rel="noopener noreferrer"
+                class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me</p>
+                    </div>
+                </a>
+
+                <a href="https://www.facebook.com/akashi.tzy.9"
+                target="_blank" rel="noopener noreferrer"
+                class="contact-card">
+                    <i class="fab fa-facebook"></i>
+                    <div>
+                        <h3>Facebook</h3>
+                        <p>Visit my Facebook profile</p>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <a href="#home" class="footer-logo">VincePortfolio.</a>
+
+        <p>
+            Designed and developed by Vince Patrick Parcon Maling.
+        </p>
+
+        <p class="copyright">
+            © <span id="currentYear"></span> Vince Patrick Parcon Maling.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
